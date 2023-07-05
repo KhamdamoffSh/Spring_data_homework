@@ -1,0 +1,10 @@
+Course
+  id,name,price,duration,createdDate
+  1. Create Course
+  2. Get Course by id.
+  3. Get Course list. return all.
+  4. Update Course.
+  5. Delete Course
+  6. Get method by each field. (getByName, getByPrice,getByDuration)
+  7. Get Course list between given 2 prices.
+  8. Get Course list between 2 createdDates

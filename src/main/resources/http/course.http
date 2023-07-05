@@ -1,0 +1,26 @@
+### create course
+POST localhost:8080/course/create
+Content-Type: application/json
+
+{
+  "name": "java",
+  "price": "1000 so'm",
+  "duration": "9 oy"
+}
+
+### get by id
+GET localhost:8080/course/6
+
+### get all
+GET localhost:8080/course/all
+
+### update course
+PUT localhost:8080/course/2
+Content-Type: application/json
+
+{
+  "name": "Matem",
+  "price": "500 ming",
+  "duration": "5 oy"
+
+}

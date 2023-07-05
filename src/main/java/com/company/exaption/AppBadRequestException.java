@@ -1,0 +1,7 @@
+package com.company.exaption;
+
+public class AppBadRequestException extends RuntimeException{
+    public AppBadRequestException(String message) {
+        super(message);
+    }
+}
